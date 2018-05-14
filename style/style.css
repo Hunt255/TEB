@@ -1,0 +1,40 @@
+header{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+header  > div{
+	width:26.68%;
+	height:100px;
+	justify-content:center;
+}
+.mainimg{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.mainimg > img{
+	justify-content:center;
+}
+.logo{
+	
+}
+.h1{
+	text-align:center;
+}
+.tel{
+	text-align:right;
+}
+.button{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+}
+.button > button{
+	border:1px solid #696989;
+	width:16%;
+	height:10%;
+	justify-content:center;
+	background-color:#819FF7;
+	color:white;
+}
