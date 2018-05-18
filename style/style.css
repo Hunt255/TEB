@@ -1,20 +1,36 @@
+body{
+	/*min-height1px;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	position:relative;*/
+}
 header{
 	display: flex;
 	flex-direction:row;
 	justify-content:center;
+	
 }
 header  > div{
-	width:26.68%;
+	width:30%;
 	height:100px;
 	justify-content:center;
 }
+
 .mainimg{
 	display: flex;
 	flex-direction:row;
 	justify-content:center;
+	min-height:1px;
+	height:30%;
+	position:static;
 }
 .mainimg > img{
 	justify-content:center;
+	border-radius:50px 50px 50px 50px;
+	width:90%;
+	height:300px;
+
 }
 .logo{
 	
@@ -32,9 +48,29 @@ header  > div{
 }
 .button > button{
 	border:1px solid #696989;
-	width:16%;
-	height:10%;
+	width:18%;
+	height:45px;
 	justify-content:center;
 	background-color:#819FF7;
 	color:white;
+}
+.fb{
+	border-radius:50px 0 0 50px;
+}
+.lb{
+	border-radius:0 50px 50px 0;
+}
+footer{
+	display: flex;
+	flex-direction:row;
+	justify-content:center;
+	bottom:0;
+	
+	
+	
+}
+footer > p{
+	justify-content:center;
+	
+	width:80%;
 }
