@@ -1,9 +1,15 @@
 body{
-	/*min-height1px;
-	display: flex;
-	flex-direction:column;
-	justify-content:center;
-	position:relative;*/
+	font-family: sans-serif;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.center{
+	flex: 1; 
+  white-space: pre-line;
+  -ms-flex-preferred-size: auto;
 }
 header{
 	display: flex;
@@ -24,6 +30,8 @@ header  > div{
 	min-height:1px;
 	height:30%;
 	position:static;
+	margin-top:2%;
+	margin-bottom:5%;
 }
 .mainimg > img{
 	justify-content:center;
@@ -45,6 +53,7 @@ header  > div{
 	display: flex;
 	flex-direction:row;
 	justify-content:center;
+	
 }
 .button > button{
 	border:1px solid #696989;
